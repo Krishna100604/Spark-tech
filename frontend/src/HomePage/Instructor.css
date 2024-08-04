@@ -1,0 +1,56 @@
+.IMG {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    margin-bottom: 20px; /* Add margin to the bottom */
+}
+
+.IMG img {
+    margin-right: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Add margin to the bottom */
+}
+
+.Tag,
+.TBtn {
+    flex: 1; /* This will make these divs take up the remaining space */
+    text-align: center; /* Align the content center */
+    padding-top: 3.2rem; /* Adjusted to create space between p tag and button */
+    padding-bottom: 3.2rem;
+}
+
+.Tag h1,
+.Tag p,
+.TBtn button {
+    margin: 0 auto; /* Center the elements horizontally */
+    max-width: 90%; /* Set maximum width to prevent overflow */
+}
+
+.TBtn button {
+    margin-top: 20px; /* Adjusted to position the button below the p tag */
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+    height: 49px;
+    background-color: #8a3acb;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .IMG img {
+        margin-right: 0; /* Reset the margin */
+        margin-bottom: 20px; /* Add margin to the bottom */
+    }
+
+    .Tag h1,
+    .Tag p,
+    .TBtn button {
+        margin: 0 auto; /* Center the elements horizontally */
+        max-width: 90%; /* Set maximum width to prevent overflow */
+    }
+}

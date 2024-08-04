@@ -1,0 +1,61 @@
+.about-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* White background for the entire container */
+  }
+  
+  .about-hero {
+    margin-bottom: 20px;
+    background-color:  #A020F0; /* Veronica color background for the hero section */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 1.2em;
+  }
+  
+  .about-content {
+    background-color: #fff; /* White background for the content section */
+    color:  #A020F0; /* Veronica text color for the content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+  }
+  
+  .about-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .icon p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #A020F0; /* Veronica text color */
+  }
+  
+  .icon svg {
+    color: #A020F0; /* Veronica color for the icons */
+  }
+  

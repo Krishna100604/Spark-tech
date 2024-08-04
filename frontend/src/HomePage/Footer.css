@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  color:  #fff3f3;
+  background-color: #26125d;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  padding: 20px; 
+}
+
+/* Style for all lists */
+.main-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.language-dropdown {
+  margin-left: 2px; /* Adjust margin as needed */
+  object-fit: contain;
+}
+
+.language-dropdown select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  /* margin-bottom: 100px; */
+  background-color: rgb(232, 226, 219);
+  border-radius: 1.5%;
+  object-fit: contain;
+}
+
+.language-dropdown select:focus {
+  outline: none;
+}
+
+
+.main-section li {
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+.main-section {
+  flex: 1;   
+}
+
+.main-section ul li:hover{
+  cursor: pointer;
+}
+
+/* Adjust height of footer */
+.footer {
+  padding: 10px; /* Add padding */
+  height: 100px; /* Adjust the height as needed */
+}
