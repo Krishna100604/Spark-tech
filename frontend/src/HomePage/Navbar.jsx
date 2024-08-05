@@ -47,7 +47,7 @@ const Navbar = () => {
             <img src="/src/images/search-b.png" alt="" />
         </div> 
         <div className='Admin'>
-            <img onClick={handleClickAdmin} src="/src/images/AdminLogo.jpeg"/>
+            <img onClick={handleClickAdmin} src="https://static.vecteezy.com/system/resources/thumbnails/005/005/791/small/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg"/>
           </div>
             {/* login & Register Button */}
            

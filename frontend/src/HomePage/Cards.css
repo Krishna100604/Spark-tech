@@ -1,47 +1,58 @@
-.card-container {
-    width: 350px;
-    border-radius: 1rem;
-    box-shadow: 0px 10px 8px #999;
+/* Cards.css */
+
+.main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card-container {
+    width: 300px; /* Set a fixed width for all cards */
+    height: 400px; /* Set a fixed height for all cards */
     display: flex;
     flex-direction: column;
-    margin: 0.5rem;
-    background-color: white;
-    /* height: fit-content; */
-}
-
-.card-img {
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
-    &&:hover{
-        color:  #fff3f3;
-        cursor: pointer;
-    }
-}
-
-.card-title,.card-description {
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    cursor: pointer;
-    &&:hover{
-        color: #8011c5;
-        size: 2px;
-    }
-}
-
-.card-btn{
-    text-align: center;
-    border-radius: 5px;
-    padding:  0.5rem 1rem;
-    background-color: #8011c5;
-    color: #fff3f3;
-    text-decoration: none;
-    margin: 0.5rem;
-}
-
-.main-cards{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .card-img {
+    width: 100%; /* Ensure image covers the width of the card */
+    height: 50%; /* Adjust height of image as needed */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    padding: 0 10px;
+    text-align: center;
+    flex: 1; /* Allows description to take available space */
+  }
+  
+  .card-btn {
+    margin-bottom: 2px;
+    padding-top: 4px;
+    margin-bottom:10px;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
